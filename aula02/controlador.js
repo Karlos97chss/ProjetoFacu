@@ -49,4 +49,4 @@ function remover(){
     readline.question('\nPressione enter para continuar...\n');
 }
 
-module.exports = {listar, criar, buscar, atualizar, remover}
+module.exports = {listar, criar, buscar, atualizar, remover}    

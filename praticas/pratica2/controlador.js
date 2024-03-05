@@ -39,9 +39,6 @@ function atualizarContatos(){
     if (buscaContato){
         const telefone = readline.question("Informe o novo telefone do contato: ");
         buscaContato.telefone = telefone;
-    } else if (buscaContato){
-        const email = readline.question("Informe  o novo email do contato: ")
-        buscaContato.email = email;
     } else {
         console.log('Contato não encontrado!')
     }

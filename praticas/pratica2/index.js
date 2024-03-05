@@ -18,8 +18,7 @@ function escolherOpcao(opcao){
         case '4': controlador.atualizarContatos(); break;
         case '5': controlador.removerContato(); break;
         case '6': process.exit(0); 
-        default: console.log("Escolha uma opção válida!");
-    }
+        default:  console.log("Escolha uma opção válida!");
 }
 
 function main() {
@@ -27,7 +26,8 @@ function main() {
         menu()
         const opcao = readline.question('Digite a opcao desejada: ');
         escolherOpcao(opcao);
+        }
     }    
-}
 
-main(); 
+
+main();
